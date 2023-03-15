@@ -1,0 +1,17 @@
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\bin\Debug\VendingMachine.exe.config
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\bin\Debug\VendingMachine.exe
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\bin\Debug\VendingMachine.pdb
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\VendingMachine.csprojResolveAssemblyReference.cache
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\MainWindow.g.cs
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\WalletWindow.g.cs
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\App.g.cs
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.cache
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.lref
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\MainWindow.baml
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\WalletWindow.baml
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\VendingMachine.g.resources
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\VendingMachine.Properties.Resources.resources
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\VendingMachine.csproj.GenerateResource.Cache
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\VendingMachine.exe
+D:\Tigran\Misc\C# Programming\Projects\VMApplication\VendingMachine\obj\Debug\VendingMachine.pdb

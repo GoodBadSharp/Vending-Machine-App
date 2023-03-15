@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<ProductRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductStock>
+    <Sandwich>
+      <ID>1</ID>
+      <Name>Tuna Sandwich</Name>
+      <Price>105</Price>
+      <Quantity>10</Quantity>
+    </Sandwich>
+    <Sandwich>
+      <ID>2</ID>
+      <Name>Shrimp Sandwich</Name>
+      <Price>105</Price>
+      <Quantity>7</Quantity>
+    </Sandwich>
+    <Sandwich>
+      <ID>3</ID>
+      <Name>Bologna Sandwich</Name>
+      <Price>75</Price>
+      <Quantity>4</Quantity>
+    </Sandwich>
+    <Sandwich>
+      <ID>4</ID>
+      <Name>Veggie Sandwich</Name>
+      <Price>60</Price>
+      <Quantity>5</Quantity>
+    </Sandwich>
+    <Sandwich>
+      <ID>5</ID>
+      <Name>Chicken Sandwich</Name>
+      <Price>70</Price>
+      <Quantity>18</Quantity>
+    </Sandwich>
+    <Sandwich>
+      <ID>6</ID>
+      <Name>Fruit Sandwich</Name>
+      <Price>60</Price>
+      <Quantity>10</Quantity>
+    </Sandwich>
+  </ProductStock>
+</ProductRepository>

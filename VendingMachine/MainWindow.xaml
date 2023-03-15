@@ -1,0 +1,20 @@
+﻿<Window x:Name="ShopWindow" x:Class="VendingMachine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VendingMachine"
+        mc:Ignorable="d"
+        Title="Sandvich Shop" Height="274" Width="568" ResizeMode="NoResize" WindowStartupLocation="Manual" Left="200" Top="200"
+        Loaded="ShopWindow_Loaded" Closing="ShopWindow_Closing">
+    <Grid x:Name="MainGrid" Height="Auto">
+        <TextBlock HorizontalAlignment="Left"  Margin="20,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Height="16"><Run Text="Available fund"/><Run Text="s"/><Run Text=":"/></TextBlock>
+        <TextBlock x:Name="FundsBox" HorizontalAlignment="Left" Margin="110,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" Text="0 rub" Height="16"/>
+        <TextBlock x:Name="Notification" HorizontalAlignment="Right" Margin="0,10,20,0" TextWrapping="Wrap" Visibility="Hidden" Text="Oops! Your wallet's gone!" VerticalAlignment="Top" Foreground="#FF787878" Width="180"/>
+        <Button x:Name="PurchaseButton" Content="Purchase" HorizontalAlignment="Left" Margin="20,0,0,10" VerticalAlignment="Bottom" Width="75" Click="PurchaseButton_Click"/>
+        <Button x:Name="ChangeButton" Content="Give Change" HorizontalAlignment="Right" Margin="0,0,20,10" VerticalAlignment="Bottom" Width="87" Click="ChangeButton_Click" IsEnabled="False"/>
+        <TextBlock x:Name="ChangeBox" HorizontalAlignment="Right" Margin="0,0,138,13" TextWrapping="Wrap" Text="Change: 0 rub" VerticalAlignment="Bottom"/>
+
+        <Grid x:Name="DynamicGrid" Margin="0,45,0,45" Background="LightGray"/>
+    </Grid>
+</Window>

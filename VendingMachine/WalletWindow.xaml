@@ -1,0 +1,21 @@
+﻿<Window x:Name="Wallet" x:Class="VendingMachine.WalletWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VendingMachine"
+        mc:Ignorable="d"
+        Title="Your Wallet" Height="238.713" Width="252.049" WindowStartupLocation="Manual" Left="800" Top="200" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="Button50" Content="50" Margin="35,52,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75" Click="Button_Click" Tag="50"/>
+        <Button x:Name="Button100" Content="100" Margin="35,79,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75" Click="Button_Click" Tag="100"/>
+        <Button x:Name="Button500" Content="500" Margin="35,106,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75" Click="Button_Click" Tag="500"/>
+        <Button x:Name="Button1000" Content="1000" Margin="35,133,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75" Click="Button_Click" Tag="1000"/>
+        <Button x:Name="Button1" Content="1" Margin="0,52,35,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" Click="Button_Click" Tag="1"/>
+        <Button x:Name="Button2" Content="2" Margin="0,79,35,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" Click="Button_Click" Tag="2"/>
+        <Button x:Name="Button5" Content="5" Margin="0,106,35,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" Click="Button_Click" Tag="5"/>
+        <Button x:Name="Button10" Content="10" Margin="0,133,35,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" Click="Button_Click" Tag="10"/>
+        <TextBlock x:Name="HeaderBlock" TextAlignment="Center" HorizontalAlignment="Center" Margin="10,22,10,0" TextWrapping="Wrap" Text="Press button to insert bill/coin" VerticalAlignment="Top" Width="226"/>
+        <TextBlock Name="NotificationBlock" HorizontalAlignment="Center" Margin="0,0,0,10" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Foreground="#FFDA9F21"/>
+    </Grid>
+</Window>

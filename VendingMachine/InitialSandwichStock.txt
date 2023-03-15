@@ -1,0 +1,6 @@
+﻿Tuna Sandwich 105 15
+Shrimp Sandwich 105 15
+Bologna Sandwich 75 20
+Veggie Sandwich 60 10
+Chicken Sandwich 70 20
+Fruit Sandwich 60 10
